@@ -1,0 +1,78 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(#f7f7f7, #d7e9f7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background-color: #670000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header .logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+/* Main Section */
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.testimony-form {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 30px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.testimony-form h2 {
+  margin-bottom: 15px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #670000;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #870000;
+}
+
+/* Footer */
+footer {
+  background-color: #670000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
